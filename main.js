@@ -50,7 +50,7 @@ function myKeyDown(e)
 	console.log(keyPressed);
 	document.getElementById("hd3").innerHTML="Voce atingiu o objetivo!!!";
     document.getElementById("myCanvas").style.borderColor="red";	
-	else{
+}else{
 		if(keyPressed == '38')
 		{
 			up();
